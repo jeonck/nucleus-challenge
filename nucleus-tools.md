@@ -1,6 +1,8 @@
 **Nucleus Tools**는 NVIDIA Enterprise Nucleus Server 환경에서 데이터 관리와 유지보수를 위한 다양한 고급 기능을 제공하는 유틸리티 모음입니다. 이 도구들은 Docker 컨테이너로 제공되며, 서버의 데이터 백업, 복원, 파일 관리, 개인정보 비식별화 등 엔터프라이즈 환경에서 필수적인 작업을 자동화하고 간소화하는 데 사용됩니다[1].
 ### 실행 
+```
 sudo docker run -d --restart always -e "ACCEPT_EULA=Y" -p 8081:80 $NUC_TOOLS docs
+```
 ### 주요 기능
 
 | 기능 | 설명 |
